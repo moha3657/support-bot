@@ -11,7 +11,7 @@ def get_client():
         return None
     return OpenAI(base_url="https://openrouter.ai/api/v1", api_key=key)
 
-MODEL_ID = "nvidia/nemotron-3-ultra-550b-a55b:free"
+MODEL_ID = "thinkingmachines/inkling-small:free"
 
 BUSINESS_CONTEXT = """
 أنت موظف خدمة عملاء ذكي، مهذب وسريع البديهة تعمل لدى متجر 'عالم القهوة'.
